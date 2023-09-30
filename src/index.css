@@ -11,6 +11,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
+  overscroll-behavior: none;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
