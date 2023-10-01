@@ -23,16 +23,14 @@ export default function Upload() {
             <Preview
               img={image}
               size="sm"
-              verifyStatus={
-                !verifyStatuses ? verifyStatuses : verifyStatuses[index]
-              }
+              verifyStatus={!verifyStatuses ? null : verifyStatuses[index]}
               key={index}
             />
           ))}
         </div>
       )}
 
-      <div className="mt-4 flex flex-row items-center justify-center gap-6">
+      <div className="mt-4 flex flex-row items-center justify-start gap-6">
         {!images ? (
           <div>
             <label htmlFor="upload">
